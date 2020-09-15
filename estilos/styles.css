@@ -1,0 +1,145 @@
+/* responsive CSS */
+@media (max-width: 575px) {
+    .logo-nav-responsive {
+        float: left;
+    }
+}
+ /* estilos css ordenados alfabeticamente*/
+ /* a b c d e f g h i j k l m n o p q r s t u v w x y z  */
+
+ .content-proyectos {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+.content {
+    font-family: 'Playfair Display', serif;
+    margin-left: 50px;
+    margin-right: 25px;
+}
+
+.form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 90px;
+    margin-right: 60px;
+}
+
+footer {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: 0%;
+}
+
+
+.horarioatencion {
+    font-size: 14pt;
+    font-family: 'Playfair Display', serif;
+    margin-left: 70px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+}
+.img-inicio {
+    width: 100%;
+    text-align: center;
+}
+.img-proyecto {
+    width: 50%;
+    margin-left: 25%;
+}
+.img-cliente {
+    margin-left: 10px;
+}
+.img-footer {
+    height: 20px;
+}
+.logo-nav {
+    float: left;
+    width: 150px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 2px;
+}
+
+.link-nav {
+    padding-right: 20px;
+    color: black;
+    text-decoration-line: overline;
+    margin-top: 15px;
+
+}
+
+.link-footer {
+    color: rgb(255, 255, 255);
+    font-family: 'Cormorant Garamond', serif;
+    text-decoration: none;
+}
+.metodo-contacto:hover {
+    font-size: 15pt;
+    color: grey;
+}
+
+.metodo-contacto2 {
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.msj-form {
+    background-color: gray;
+    color: white;
+}
+
+
+.metodo-contacto {
+    font-size: 14pt;
+    font-family: 'Playfair Display', serif;
+    margin-left: 70px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.metodo-contacto2 {
+    font-size: 14pt;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    color: black;
+}
+
+.subtitulohistoria {
+    font-size: 18pt;
+    font-family: 'Playfair Display', serif;
+    margin-left: 40px;
+    border-bottom: 1px solid;
+    margin-top: 30px;
+}
+
+.section-adivinanza{
+    background-image: url(../imgs/inicio.png);
+    position: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

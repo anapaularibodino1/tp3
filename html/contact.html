@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> FAM-Estudio integral </title>
+    <link rel="stylesheet" type="text/css" href="../estilos/styles.css">
+    <link rel="icon" href="../imgs/favicon.ico" type="image/gif">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="row">
+                    <!-- logo FAM -->
+                    <div class="col-sm-6, logo-nav-responsive">
+
+                        <a href="index.html"><img src="../imgs/logo_nav.png" class="logo-nav"
+                                alt="Logo FAM estudio integral de arquitectura"></a>
+
+                    </div>
+
+
+                    <!-- botón responsive -->
+                    <nav class="navbar navbar-expand-lg navbar-light bg-white" style="margin-right: 10px;">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <!-- nav -->
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo01" style="float: right;">
+                            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                                <li class="nav-item active">
+                                    <a class="nav-link, link-nav" href="index.html">Inicio <span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link, link-nav" href="whoWe.html">Nosotros</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link, link-nav" href="proyects.html">Nuestros proyectos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link, link-nav" href="contact.html">Contacto</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </nav>
+
+
+                </div>
+
+
+            </div>
+            </div>
+        </nav>
+
+    </header>
+    <section>
+
+        <p class="subtitulohistoria">Nuestros medios de contacto</p>
+        <!-- instagram -->
+        <a href="https://www.instagram.com/arquitectura.fam/?hl=en" class="metodo-contacto">
+            <p class="metodo-contacto">Instagram: arquitectura.fam</p>
+        </a>
+        <!-- facebook -->
+        <a href="https://www.facebook.com/arquitectura.fam/" class="metodo-contacto">
+            <p class="metodo-contacto">Facebook: arquitectura.fam</p>
+        </a>
+
+        <p class="metodo-contacto2">Envíanos un email</p>
+        <!-- formulario mail -->
+        <form action="/action_page.php" class="was-validated, form, border border dark"
+            style="margin-right: 70px; margin-left: 70px; padding: 20px;">
+            <div class="form-group">
+                <label for="name">Nombre:</label>
+                <input type="text" class="form-control" id="name" placeholder="Ingresa tu nombre" name="name" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+            <div class="form-group">
+                <label for="apellido">Apellido:</label>
+                <input type="text" class="form-control" id="apellido" placeholder="Ingresa tu apellido" name="apellido"
+                    required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+            <div class="form-group">
+                <label for="email">Dirección de e-mail:</label>
+                <input type="email" class="form-control" placeholder="Ingresa tu email" id="email">
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+
+                <div class="form-group">
+                    <label for="text">Mensaje</label>
+                    <input type="text" class="form-control" placeholder="Mensaje" id="mensaje">
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                </div>
+
+
+                <button type="submit" class="btn btn-primary" style="margin-top: 15px;" id="submit">Enviar</button>
+
+        </form>
+
+
+        <p class="subtitulohistoria">Horarios y centro de atención</p>
+        <!-- horarios y maps oficinas -->
+        <p class="horarioatencion">Lunes a Viernes de 9am a 18pm</p>
+        <div class="alert alert-info" style="margin-left: 60px; margin-right: 60px;">
+
+            <strong>ATENCIÓN!</strong> Por Covid-19 nuestros horarios pueden variar
+        </div>
+        <div class="container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d108947.97971190984!2d-64.14336022174612!3d-31.424473906838145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x9432a3582f7a880f%3A0x1cbbc311a268da91!2sBroodery%2C%20Obispo%20Trejo%201340%2C%20X5000%20IZB%2C%20C%C3%B3rdoba!3m2!1d-31.4309685!2d-64.1918829!5e0!3m2!1sen!2sar!4v1599487859760!5m2!1sen!2sar"
+                width="400" height="300" frameborder="0" style="border:0; margin-bottom: 10px;" allowfullscreen=""
+                aria-hidden="false" tabindex="0" class="metodo-contacto"></iframe>
+
+        </div>
+    </section>
+    <footer>
+        <!-- telefono y mail -->
+        <a href="tel:3518106120" class="linkfooter">Llámanos</a> o <a href="mailto:arquitectura.fam@gmail.com"
+            class="linkfooter">Envíanos un mail</a>
+
+        <!-- copyright -->
+        <p>&copy; 2020 - <strong> Estudio integral de Arquitectura / Córdoba capital<strong></p>
+
+        <!-- redes sociales -->
+        <a href="https://www.instagram.com/arquitectura.fam/?hl=en"><img
+                src="../imgs/FAVPNG_instagram-logo-sticker_pwiq8x0K.png" class="img-footer"></a> <a
+            href="https://www.facebook.com/arquitectura.fam/"><img src="../imgs/FAVPNG_facebook-icon_9X35VXL6.png"
+                class="img-footer"></a>
+    </footer>
+</body>
+
+</html>
